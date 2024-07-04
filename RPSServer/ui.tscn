@@ -1,0 +1,165 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdhf2jm05lbhw"]
+
+[ext_resource type="Script" path="res://UIManager.cs" id="1_bavhg"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Layouts" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bavhg")
+
+[node name="layout sample" type="Control" parent="Layouts"]
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="sample" type="Control" parent="Layouts/layout sample"]
+anchors_preset = 0
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 1820.0
+offset_bottom = 980.0
+
+[node name="title" type="Control" parent="Layouts/layout sample/sample"]
+anchors_preset = 0
+offset_right = 1720.0
+offset_bottom = 100.0
+
+[node name="GamepageServer" type="Control" parent="Layouts/layout sample/sample/title"]
+anchors_preset = 0
+offset_right = 1720.0
+offset_bottom = 100.0
+
+[node name="homepage-title" type="Label" parent="Layouts/layout sample/sample/title/GamepageServer"]
+layout_mode = 0
+offset_right = 1720.0
+offset_bottom = 100.0
+text = "Rock Paper Scissors - Server"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HomepageServer" type="Control" parent="Layouts/layout sample/sample/title"]
+anchors_preset = 0
+offset_right = 1720.0
+offset_bottom = 100.0
+
+[node name="homepage-title" type="Label" parent="Layouts/layout sample/sample/title/HomepageServer"]
+layout_mode = 0
+offset_right = 1720.0
+offset_bottom = 100.0
+text = "Rock Paper Scissors - Server"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content" type="Control" parent="Layouts/layout sample/sample"]
+anchors_preset = 0
+offset_top = 200.0
+offset_right = 1720.0
+offset_bottom = 880.0
+
+[node name="GamepageServer" type="Control" parent="Layouts/layout sample/sample/content"]
+anchors_preset = 0
+offset_right = 1720.0
+offset_bottom = 680.0
+
+[node name="choice-player1" type="RichTextLabel" parent="Layouts/layout sample/sample/content/GamepageServer"]
+layout_mode = 0
+offset_right = 1720.0
+offset_bottom = 30.0
+bbcode_enabled = true
+text = "Player1: WAITING ..."
+
+[node name="choice-player2" type="RichTextLabel" parent="Layouts/layout sample/sample/content/GamepageServer"]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 1720.0
+offset_bottom = 70.0
+bbcode_enabled = true
+text = "Player2: WAITING ..."
+
+[node name="HomepageServer" type="Control" parent="Layouts/layout sample/sample/content"]
+anchors_preset = 0
+offset_right = 1720.0
+offset_bottom = 680.0
+
+[node name="form" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer"]
+anchors_preset = 0
+offset_left = 610.0
+offset_right = 1110.0
+offset_bottom = 680.0
+
+[node name="HomepageServer" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form"]
+anchors_preset = 0
+offset_right = 500.0
+offset_bottom = 680.0
+
+[node name="form-container" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer"]
+anchors_preset = 0
+offset_right = 500.0
+offset_bottom = 680.0
+
+[node name="HomepageServer" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container"]
+anchors_preset = 0
+offset_right = 500.0
+offset_bottom = 680.0
+
+[node name="form-port-inputline" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer"]
+anchors_preset = 0
+offset_right = 500.0
+offset_bottom = 40.0
+
+[node name="HomepageServer" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer/form-port-inputline"]
+anchors_preset = 0
+offset_right = 500.0
+offset_bottom = 40.0
+
+[node name="form-port-label" type="Label" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer/form-port-inputline/HomepageServer"]
+layout_mode = 0
+offset_right = 245.0
+offset_bottom = 40.0
+text = "Port"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="form-port" type="LineEdit" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer/form-port-inputline/HomepageServer"]
+layout_mode = 0
+offset_left = 255.0
+offset_right = 500.0
+offset_bottom = 40.0
+text = "8066"
+placeholder_text = "0000"
+
+[node name="form-controls" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer"]
+anchors_preset = 0
+offset_top = 60.0
+offset_right = 500.0
+offset_bottom = 100.0
+
+[node name="HomepageServer" type="Control" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer/form-controls"]
+anchors_preset = 0
+offset_right = 500.0
+offset_bottom = 40.0
+
+[node name="form-control-reset" type="Button" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer/form-controls/HomepageServer"]
+layout_mode = 0
+offset_right = 245.0
+offset_bottom = 40.0
+text = "Reset"
+
+[node name="form-control-submit" type="Button" parent="Layouts/layout sample/sample/content/HomepageServer/form/HomepageServer/form-container/HomepageServer/form-controls/HomepageServer"]
+layout_mode = 0
+offset_left = 255.0
+offset_right = 500.0
+offset_bottom = 40.0
+text = "Submit"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<page>
+  <binding class="GamepageServer" />
+  <layout id="sample">
+    <target id="title">
+      <Label id="homepage-title" text="Rock Paper Scissors - Server Game" text-align="center" text-align-vertical="center" />
+    </target>
+  </layout>
+</page>

@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FLG.Cs.Validation/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Datamodel": "0.2.0",
+          "FLG.Cs.Decorators": "0.2.0",
+          "FLG.Cs.IO": "0.2.0",
+          "FLG.Cs.Math": "0.2.0",
+          "FLG.Cs.Model": "0.2.0",
+          "FLG.Cs.ServiceLocator": "0.2.0",
+          "FLG.Cs.Validation": "0.2.0",
+          "ProjectDefs.UI": "0.2.0"
+        },
+        "runtime": {
+          "FLG.Cs.Validation.dll": {}
+        }
+      },
+      "FLG.Cs.Datamodel/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Math": "0.2.0"
+        },
+        "runtime": {
+          "FLG.Cs.Datamodel.dll": {}
+        }
+      },
+      "FLG.Cs.Decorators/0.2.0": {
+        "runtime": {
+          "FLG.Cs.Decorators.dll": {}
+        }
+      },
+      "FLG.Cs.Math.Reference/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Math.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FLG.Cs.Validation/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Datamodel/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Decorators/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Math.Reference/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

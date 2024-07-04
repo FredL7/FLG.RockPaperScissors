@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RockPaperScissors\RockPaperScissors.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FLG.Cs.Datamodel">
+      <HintPath>..\..\dependencies\FLG.Framework\FLG.Cs.Datamodel.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Decorators">
+      <HintPath>..\..\dependencies\FLG.Framework\FLG.Cs.Decorators.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Math">
+      <HintPath>..\..\dependencies\FLG.Framework\FLG.Cs.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Model">
+      <HintPath>..\..\dependencies\FLG.Framework\FLG.Cs.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.ServiceLocator">
+      <HintPath>..\..\dependencies\FLG.Framework\FLG.Cs.ServiceLocator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FLG.Cs.Commands">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Commands.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Datamodel">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Datamodel.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Decorators">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Decorators.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Logger">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Model">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Networking">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.ServiceLocator">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.ServiceLocator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

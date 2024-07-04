@@ -1,0 +1,189 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FLG.Cs.Framework/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Datamodel": "0.2.0",
+          "FLG.Cs.Decorators": "0.2.0",
+          "FLG.Cs.IO": "0.2.0",
+          "FLG.Cs.Math": "0.2.0",
+          "FLG.Cs.Model": "0.2.0",
+          "FLG.Cs.ServiceLocator": "0.2.0",
+          "FLG.Cs.Validation": "0.2.0",
+          "ProjectDefs.UI": "0.2.0",
+          "FLG.Cs.Commands": "0.2.0.0",
+          "FLG.Cs.Logger": "0.2.0.0",
+          "FLG.Cs.Networking": "0.2.0.0",
+          "FLG.Cs.Serialization": "0.2.0.0",
+          "FLG.Cs.UI": "0.2.0.0"
+        },
+        "runtime": {
+          "FLG.Cs.Framework.dll": {}
+        }
+      },
+      "FLG.Cs.Datamodel/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Math": "0.2.0"
+        },
+        "runtime": {
+          "FLG.Cs.Datamodel.dll": {}
+        }
+      },
+      "FLG.Cs.Decorators/0.2.0": {
+        "runtime": {
+          "FLG.Cs.Decorators.dll": {}
+        }
+      },
+      "FLG.Cs.Math/0.2.0": {
+        "runtime": {
+          "FLG.Cs.Math.dll": {}
+        }
+      },
+      "FLG.Cs.ServiceLocator/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Datamodel": "0.2.0",
+          "FLG.Cs.Decorators": "0.2.0"
+        },
+        "runtime": {
+          "FLG.Cs.ServiceLocator.dll": {}
+        }
+      },
+      "FLG.Cs.Commands/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Commands.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.Logger/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Logger.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.Networking/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Networking.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.Serialization/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Serialization.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.UI/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.UI.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.IO.Reference/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.IO.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.Validation.Reference/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Validation.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FLG.Cs.Model.Reference/0.2.0.0": {
+        "runtime": {
+          "FLG.Cs.Model.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FLG.Cs.Framework/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Datamodel/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Decorators/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Math/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.ServiceLocator/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Commands/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Logger/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Networking/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Serialization/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.UI/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.IO.Reference/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Validation.Reference/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Cs.Model.Reference/0.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

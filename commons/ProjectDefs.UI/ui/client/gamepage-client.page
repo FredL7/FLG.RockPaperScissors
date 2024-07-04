@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<page>
+  <binding class="GamepageClient" />
+  <layout id="sample">
+    <target id="title">
+      <Label id="homepage-title" text="Rock Paper Scissors - Client Game" text-align="center" text-align-vertical="center" />
+    </target>
+    <target id="content">
+      <HStack id="client-choice" justify="space-evenly">
+        <VStack id="client-choice-paladin" width="300" justify="space-between">
+          <Sprite source="img/Paladin.png" width="300" height="600" />
+        </VStack>
+        <VStack id="client-choice-mage" width="300" justify="space-between">
+          <Sprite source="img/Mage.png" width="300" height="600" />
+        </VStack>
+        <VStack id="client-choice-assassin" width="300" justify="space-between">
+          <Sprite source="img/Assassin.png" width="300" height="600" />
+        </VStack>
+      </HStack>
+      <HStack id="client-confirm" justify="center" height="40" margin="0 40 0 0" />
+    </target>
+  </layout>
+</page>

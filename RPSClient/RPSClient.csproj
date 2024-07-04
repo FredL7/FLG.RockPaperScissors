@@ -1,0 +1,63 @@
+<Project Sdk="Godot.NET.Sdk/4.1.1">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\commons\ProjectDefs.UI\ProjectDefs.UI.csproj" />
+    <ProjectReference Include="..\RockPaperScissors\RockPaperScissors.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FLG.Cs.Cards">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Cards.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Datamodel">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Datamodel.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Decorators">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Decorators.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Framework">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.IO">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Logger">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Math">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Model">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Networking">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Serialization">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.ServiceLocator">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.ServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.UI">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Utils">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Cs.Validation">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Cs.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Godot.Framework">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Godot.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Godot.Helpers">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Godot.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="FLG.Godot.UI">
+      <HintPath>..\dependencies\FLG.Framework\FLG.Godot.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
