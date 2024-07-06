@@ -9,31 +9,58 @@
       "FLG.Godot.UI/0.2.0": {
         "dependencies": {
           "FLG.Cs.Datamodel": "0.2.0",
-          "FLG.Cs.Decorators": "0.2.0",
           "FLG.Cs.Math": "0.2.0",
-          "FLG.Cs.Model": "0.2.0",
-          "FLG.Cs.ServiceLocator": "0.2.0",
-          "FLG.Godot.Helpers": "0.2.0.0",
-          "GodotSharp": "4.1.1.0"
+          "FLG.Godot.Helpers": "0.2.0",
+          "Godot.SourceGenerators": "4.1.1",
+          "GodotSharp": "4.1.1",
+          "GodotSharpEditor": "4.1.1"
         },
         "runtime": {
           "FLG.Godot.UI.dll": {}
         }
       },
-      "FLG.Godot.Helpers/0.2.0.0": {
+      "Godot.SourceGenerators/4.1.1": {},
+      "GodotSharp/4.1.1": {
         "runtime": {
-          "FLG.Godot.Helpers.dll": {
-            "assemblyVersion": "0.2.0.0",
-            "fileVersion": "0.2.0.0"
-          }
-        }
-      },
-      "GodotSharp/4.1.1.0": {
-        "runtime": {
-          "GodotSharp.dll": {
+          "lib/net6.0/GodotSharp.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.1.1.0"
           }
+        }
+      },
+      "GodotSharpEditor/4.1.1": {
+        "dependencies": {
+          "GodotSharp": "4.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
+      "FLG.Cs.Datamodel/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Math": "0.2.0"
+        },
+        "runtime": {
+          "FLG.Cs.Datamodel.dll": {}
+        }
+      },
+      "FLG.Cs.Math/0.2.0": {
+        "runtime": {
+          "FLG.Cs.Math.dll": {}
+        }
+      },
+      "FLG.Godot.Helpers/0.2.0": {
+        "dependencies": {
+          "FLG.Cs.Datamodel": "0.2.0",
+          "Godot.SourceGenerators": "4.1.1",
+          "GodotSharp": "4.1.1",
+          "GodotSharpEditor": "4.1.1"
+        },
+        "runtime": {
+          "FLG.Godot.Helpers.dll": {}
         }
       }
     }
@@ -44,13 +71,39 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FLG.Godot.Helpers/0.2.0.0": {
-      "type": "reference",
+    "Godot.SourceGenerators/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kti3AjqGFT/myqAg87ykwoGAMrSUZkQaLdpZRWqvO0w2VhDtwUgEEKZk5HK94GzlWHOHZx2UW2fO88G7h56VgA==",
+      "path": "godot.sourcegenerators/4.1.1",
+      "hashPath": "godot.sourcegenerators.4.1.1.nupkg.sha512"
+    },
+    "GodotSharp/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r07Z+O82m5dAqeJMYHDJCGdD0p1gb8vNVi+kIFYGjDNk39Ys3fgsm+x7ZpHEfNSW2oHTn62SCuCE38UAVy17MA==",
+      "path": "godotsharp/4.1.1",
+      "hashPath": "godotsharp.4.1.1.nupkg.sha512"
+    },
+    "GodotSharpEditor/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t29ltWPBHhWDKncK2XFXmHx29jGOqtsR9PFdkjIcRWG5+PdcCJNrCng5cls/H+zGtluGF5L6rNBFbFlBBvTgkA==",
+      "path": "godotsharpeditor/4.1.1",
+      "hashPath": "godotsharpeditor.4.1.1.nupkg.sha512"
+    },
+    "FLG.Cs.Datamodel/0.2.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "GodotSharp/4.1.1.0": {
-      "type": "reference",
+    "FLG.Cs.Math/0.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FLG.Godot.Helpers/0.2.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
