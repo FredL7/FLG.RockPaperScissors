@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <page>
   <binding class="HomepageServer" />
-  <layout id="sample">
+  <layout id="server">
     <target id="title">
       <Label id="homepage-title" text="Rock Paper Scissors - Server Home" text-align="center" text-align-vertical="center" />
     </target>
