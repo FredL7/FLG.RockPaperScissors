@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <layout>
-    <VStack id="main" margin="100">
+    <VStack id="wrapper" margin="100">
       <Container id="title" justify="center" align="center" height="100" />
       <VStack id="content" justify="start" align="center" margin="0 40 0 0" />
     </VStack>
